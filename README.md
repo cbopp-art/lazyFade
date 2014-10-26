@@ -18,7 +18,7 @@ $('.foo').fadeDelay({
 	duration: 250,
 	delay: 50,
 	opacity: {
-		start: 0.01
+		start: 0.01,
 		end: 1
 	}
 });
