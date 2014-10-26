@@ -1,7 +1,7 @@
 fadeDelay.js
 ======
 
-This [jQuery](http://www.jquery.com) Plugin simply fades a row of elements but in a smoothly way. The fade of each next element gets delayed slightly what gives to the whole transition a precious touch.
+This [jQuery](http://www.jquery.com) Plugin simply fades a row of elements but in a smoothly way. The fade of each next element gets delayed slightly what gives a precious touch to the whole transition.
 
 ###Demo
 Coming soon...

@@ -5,7 +5,7 @@
  * @dependencies	jQuery v1.5.0 http://jquery.com
  * @author			Cornel Boppart <cornel@bopp-art.com>
  * @copyright		Author
- * @version			2.1.0 (26/10/2014)
+ * @version			1.0.0 (26/10/2014)
  */
 
 ;(function ($) {
