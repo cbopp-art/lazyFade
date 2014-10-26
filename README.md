@@ -4,7 +4,7 @@ fadeDelay.js
 This [jQuery](http://www.jquery.com) Plugin simply fades a row of elements but in a smoothly way. The fade of each next element gets delayed slightly what gives a precious touch to the whole transition.
 
 ###Demo
-Check out a short example of the fadeDelay.js:
+Check out a short example of the fadeDelay.js:<br>
 http://jsfiddle.net/ydbxjssk/
 
 ###Installation
