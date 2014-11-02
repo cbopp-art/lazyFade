@@ -33,8 +33,8 @@
 		 * @return	{object}	this	The current element itself
 		 */
 		init: function (options) {
-			var settings = $.extend(fadeDelay.settings, options),
-				index	 = (settings.reverse === true) ? this.length : 0;
+			var	settings	= $.extend(fadeDelay.settings, options),
+				index		= (settings.reverse === true) ? this.length : 0;
 
 			return this.each(function () {
 				var $this = $(this);
