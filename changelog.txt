@@ -1,2 +1,5 @@
+2014/11/02 - v1.1.0
+Added: Option for reverse order
+
 2014/10/26 - v1.0.0
 Initial release
