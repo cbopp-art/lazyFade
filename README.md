@@ -5,7 +5,7 @@ This [jQuery](http://www.jquery.com) Plugin simply fades a row of elements but i
 
 ###Demo
 Check out a short example of the fadeDelay.js:<br>
-http://jsfiddle.net/ydbxjssk/
+http://jsfiddle.net/ydbxjssk/1/
 
 ###Installation
 Just include the `fadeDelay.js` and call it for your row of elements.
