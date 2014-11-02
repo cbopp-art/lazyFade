@@ -16,6 +16,7 @@ Note: Also make sure that jQuery is defined.
 ```
 ```
 $('.foo').fadeDelay({
+	reverse: false,
 	duration: 250,
 	delay: 50,
 	opacity: {
