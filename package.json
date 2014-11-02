@@ -1,12 +1,12 @@
 {
-  "name": "fadeDelay.js",
+  "name": "fadeDelay",
   "description": "This jQuery Plugin simply fades a row of elements but in a smoothly way. The fade of each next element gets delayed slightly what gives a precious touch to the whole transition.",
   "keywords": [
     "jquery-plugin",
     "element",
     "fade",
     "delay",
-	"transition"
+    "transition"
   ],
   "version": "1.1.0",
   "dependencies": {
