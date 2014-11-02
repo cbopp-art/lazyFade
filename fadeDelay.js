@@ -5,7 +5,7 @@
  * @dependencies	jQuery v1.5.0 http://jquery.com
  * @author			Cornel Boppart <cornel@bopp-art.com>
  * @copyright		Author
- * @version			1.0.0 (26/10/2014)
+ * @version			1.1.0 (02/11/2014)
  */
 
 ;(function ($) {
@@ -17,6 +17,7 @@
 		 *
 		 */
 		settings: {
+			reverse: false,
 			duration: 500,
 			delay: 50,
 			opacity: {
@@ -32,14 +33,14 @@
 		 * @return	{object}	this	The current element itself
 		 */
 		init: function (options) {
-			var index = 0,
-				settings = $.extend(fadeDelay.settings, options);
+			var settings = $.extend(fadeDelay.settings, options),
+				index	 = (settings.reverse === true) ? this.length : 0;
 
 			return this.each(function () {
 				var $this = $(this);
 
 				fadeDelay.fade($this, settings, index);
-				++index;
+				(settings.reverse === true) ? --index : ++index;
 			});
 		},
 
