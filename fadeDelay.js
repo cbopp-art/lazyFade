@@ -37,7 +37,7 @@
 				index		= (settings.reverse === true) ? this.length : 0;
 
 			return this.each(function () {
-				var $this = $(this);
+				var $this	= $(this);
 
 				fadeDelay.fade($this, settings, index);
 				(settings.reverse === true) ? --index : ++index;
