@@ -1,5 +1,5 @@
 {
-  "name": "lazyFade",
+  "name": "lazyfade.js",
   "description": "This jQuery Plugin simply fades a row of elements with a lazy effect. The fade of each next element gets delayed slightly what gives a precious touch to the whole transition.",
   "keywords": [
     "jquery-plugin",
