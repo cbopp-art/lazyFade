@@ -1,6 +1,6 @@
 /**
- * fadeDelay.js - jQuery Plugin
- * Fades a row of elements smoothly
+ * lazyFade.js - jQuery Plugin
+ * Fades a row of elements with a lazy effect.
  *
  * @dependencies	jQuery v1.5.0 http://jquery.com
  * @author			Cornel Boppart <cornel@bopp-art.com>
@@ -10,7 +10,7 @@
 
 ;(function ($) {
 
-	var fadeDelay = {
+	var lazyFade = {
 
 		/**
 		 * Default settings
@@ -33,13 +33,13 @@
 		 * @return	{object}	this	The current element itself
 		 */
 		init: function (options) {
-			var	settings	= $.extend(fadeDelay.settings, options),
+			var	settings	= $.extend(lazyFade.settings, options),
 				index		= (settings.reverse === true) ? this.length : 0;
 
 			return this.each(function () {
 				var $this	= $(this);
 
-				fadeDelay.fade($this, settings, index);
+				lazyFade.fade($this, settings, index);
 				(settings.reverse === true) ? --index : ++index;
 			});
 		},
@@ -59,15 +59,15 @@
 
 	};
 
-	$.fn.fadeDelay = function (method) {
-		if (fadeDelay[method]) {
-			return fadeDelay[method].apply(this, Array.prototype.slice.call(arguments, 1));
+	$.fn.lazyFade = function (method) {
+		if (lazyFade[method]) {
+			return lazyFade[method].apply(this, Array.prototype.slice.call(arguments, 1));
 		}
 		else if (typeof method === 'object' || !method) {
-			return fadeDelay.init.apply(this, arguments);
+			return lazyFade.init.apply(this, arguments);
 		}
 		else {
-			return $.error('Method ' + method + ' does not exist on jQuery.fadeDelay');
+			return $.error('Method ' + method + ' does not exist on jQuery.lazyFade');
 		}
 	};
 

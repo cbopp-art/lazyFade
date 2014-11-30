@@ -1,11 +1,12 @@
 {
-  "name": "fadeDelay",
-  "description": "This jQuery Plugin simply fades a row of elements but in a smoothly way. The fade of each next element gets delayed slightly what gives a precious touch to the whole transition.",
+  "name": "lazyFade",
+  "description": "This jQuery Plugin simply fades a row of elements with a lazy effect. The fade of each next element gets delayed slightly what gives a precious touch to the whole transition.",
   "keywords": [
     "jquery-plugin",
     "element",
     "fade",
     "delay",
+    "lazy",
     "transition"
   ],
   "version": "1.1.0",
@@ -14,14 +15,14 @@
   },
   "author": "Cornel Boppart (https://github.com/cbopp-art)",
   "license": "GPL-2.0+",
-  "main": "fadeDelay.js",
+  "main": "lazyFade.js",
   "homepage": "http://cornel.bopp-art.com/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cbopp-art/fadeDelay.git"
+    "url": "https://github.com/cbopp-art/lazyFade.git"
   },
   "bugs": {
-    "url": "https://github.com/cbopp-art/fadeDelay/issues",
+    "url": "https://github.com/cbopp-art/lazyFade/issues",
     "email": "cornel@bopp-art.com"
   },
   "scripts": {

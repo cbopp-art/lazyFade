@@ -1,21 +1,21 @@
-fadeDelay.js
+lazyFade.js
 ======
 
-This [jQuery](http://www.jquery.com) Plugin simply fades a row of elements but in a smoothly way. The fade of each next element gets delayed slightly what gives a precious touch to the whole transition.
+This [jQuery](http://www.jquery.com) simply fades a row of elements with a lazy effect. The fade of each next element gets delayed slightly what gives a precious touch to the whole transition.
 
 ###Demo
-Check out a short example of the fadeDelay.js:<br>
-http://jsfiddle.net/ydbxjssk/1/
+Check out a short example of the lazyFade.js:<br>
+http://jsfiddle.net/cboppart/ydbxjssk/4/
 
 ###Installation
-Just include the `fadeDelay.js` and call it for your row of elements.
+Just include the `lazyFade.js` and call it for your row of elements.
 Note: Also make sure that jQuery is defined.
 
 ```
-<script type="text/javascript" src="path/to/your/fadeDelay.js"></script>
+<script type="text/javascript" src="path/to/your/lazyFade.js"></script>
 ```
 ```
-$('.foo').fadeDelay({
+$('.foo').lazyFade({
 	reverse: false,
 	duration: 250,
 	delay: 50,
