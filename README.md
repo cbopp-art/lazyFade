@@ -5,7 +5,7 @@ This [jQuery](http://www.jquery.com) simply fades a row of elements with a lazy 
 
 ###Demo
 Check out a short example of the lazyFade.js:<br>
-http://jsfiddle.net/cboppart/ydbxjssk/4/
+http://jsfiddle.net/cboppart/ydbxjssk/5/
 
 ###Installation
 Just include the `lazyFade.js` and call it for your row of elements.
